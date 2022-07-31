@@ -1,0 +1,16 @@
+game events
+['event type', param1, param2]
+
+event types: 
+ id update 
+ ['id update', id]
+
+ remove players
+ ['id', x, y]
+
+ player locations
+ ['player locations', [id, x, y], [id, x, y] ...]
+
+user commands
+ position update
+ ['position update', id, x, y]
