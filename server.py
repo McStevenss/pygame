@@ -11,12 +11,12 @@ global outgoing
 outgoing = []
 
 class Minion:
-  def __init__(self, ownerid):
+  def __init__(self, ownerid, health= 100):
     self.x = 50
     self.y = 50
     self.ownerid = ownerid
     self.Class = 0
-    self.health = 100
+    self.health = health
 
 global minionmap
 minionmap = {}
