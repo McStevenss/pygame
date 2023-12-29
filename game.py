@@ -5,6 +5,9 @@ import pickle
 import select
 import socket
 
+#Hej
+hej sdssfsf
+
 WIDTH = 900
 HEIGHT = 700
 PLAY_AREA_Y = 600
